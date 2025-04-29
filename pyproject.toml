@@ -1,0 +1,14 @@
+[project]
+name = "llm-classifier-outlines"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipywidgets>=8.1.6",
+    "jupyterlab>=4.4.1",
+    "langchain-openai>=0.3.14",
+    "outlines>=0.2.3",
+    "python-dotenv>=1.1.0",
+    "torch<2.3.0",
+]
